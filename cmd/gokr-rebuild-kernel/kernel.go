@@ -44,6 +44,7 @@ var patchFiles = []string{
 	// serial
 	"0101-expose-UART0-ttyAMA0-on-GPIO-14-15-disable-UART1-tty.patch",
 	"0102-expose-UART0-ttyAMA0-on-GPIO-14-15-disable-UART1-tty.patch",
+	"0500-wireguard.patch",
 }
 
 func copyFile(dest, src string) error {

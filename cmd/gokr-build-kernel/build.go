@@ -15,6 +15,7 @@ import (
 var latest = "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.0.7.tar.xz"
 
 const configAddendum = `
+CONFIG_WIREGUARD=y
 CONFIG_ARCH_BCM2835=y 
 CONFIG_HW_RANDOM_BCM2835=y
 CONFIG_DMA_BCM2835=y
